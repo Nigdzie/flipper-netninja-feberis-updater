@@ -31,13 +31,13 @@ In this example, we flash the **RogueMaster** build `RM0329-1941-0.420.0-d161b19
     - Release the **left button**
 4. On the Flipper:
     - Navigate to **Apps**
-    - !(Gfx/GPIO1.jpg)
+    ![GPIO_Shoot](Gfx/GPIO1.jpg)
     - Navigate to **GPIO**
-      !(Gfx/GPIO2.jpg)
+    ![GPIO_Shoot](Gfx/GPIO2.jpg)
     - Select **GPIO with I2C**
-      !(Gfx/GPIO3.jpg)
+    ![GPIO_Shoot](Gfx/GPIO3.jpg)
     - Choose **USB-UART Bridge**
-      !(Gfx/GPIO4.jpg)
+    ![GPIO_Shoot](Gfx/GPIO4.jpg)
 
 6. **Connect the Flipper to your computer via USB.**
 
