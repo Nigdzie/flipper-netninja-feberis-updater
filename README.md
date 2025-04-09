@@ -31,12 +31,17 @@ In this example, we flash the **RogueMaster** build `RM0329-1941-0.420.0-d161b19
     - Release the **left button**
 4. On the Flipper:
     - Navigate to **Apps**
+  
+      
     ![GPIO_Shoot](Gfx/GPIO1.jpg)
     - Navigate to **GPIO**
+      
     ![GPIO_Shoot](Gfx/GPIO2.jpg)
     - Select **GPIO with I2C**
+      
     ![GPIO_Shoot](Gfx/GPIO3.jpg)
     - Choose **USB-UART Bridge**
+      
     ![GPIO_Shoot](Gfx/GPIO4.jpg)
 
 6. **Connect the Flipper to your computer via USB.**
@@ -47,12 +52,18 @@ In this example, we flash the **RogueMaster** build `RM0329-1941-0.420.0-d161b19
 
 8. Open the browser and go to:  
    👉 [https://esp.huhn.me](https://esp.huhn.me)
+    ![WEB_Shoot](Gfx/WEB1.jpg)
 
-9. Click **Connect** and select your Flipper Zero – it should appear as a serial port (e.g. `FlipperZero (COMx)` or similar).
+10. Click **Connect** and select your Flipper Zero – it should appear as a serial port (e.g. `FlipperZero (COMx)` or similar).
+    ![WEB_Shoot](Gfx/WEB2.jpg)
 
-10. In the interface, under the **0x10000** field, select the `ESP32_Marauder_FEBERIS_v1_4_1.bin` file.
+12. In the interface, under the **0x10000** field, select the `ESP32_Marauder_FEBERIS_v1_4_1.bin` file.
 
-11. Click **Flash** to begin the update.
+    
+    ![WEB_Shoot](Gfx/WEB3.jpg)
+14. Click **Flash** to begin the update.
+
+    ![WEB_Shoot](Gfx/WEB4.jpg)
 
 ---
 
