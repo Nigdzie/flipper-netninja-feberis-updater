@@ -52,27 +52,21 @@ In this example, we flash the **RogueMaster** build `RM0329-1941-0.420.0-d161b19
 
 8. Open the browser and go to:  
    👉 [https://esp.huhn.me](https://esp.huhn.me)
-    ![WEB_Shoot](Gfx/WEB1.jpg)
 
 10. Click **Connect** and select your Flipper Zero – it should appear as a serial port (e.g. `FlipperZero (COMx)` or similar).
-    ![WEB_Shoot](Gfx/WEB2.jpg)
+    ![WEB_Shoot](Gfx/WEB1.jpg)
 
 12. In the interface, under the **0x10000** field, select the `ESP32_Marauder_FEBERIS_v1_4_1.bin` file.
 
-    
     ![WEB_Shoot](Gfx/WEB3.jpg)
+    
 14. Click **Flash** to begin the update.
 
     ![WEB_Shoot](Gfx/WEB4.jpg)
 
----
+    ![WEB_Shoot](Gfx/WEB5.jpg)
 
-### 🖼️ Web Interface Example
-
-Below is an example of the web flasher setup screen:
-
-![Web Flasher Screenshot](Gfx/WEB1.jpg)
-
+    ![WEB_Shoot](Gfx/WEB6.jpg)
 ---
 
 ## Technical Details
@@ -101,4 +95,4 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 ## Authors
 
-Created by [Your Name or Nickname] – contributions are welcome!
+Created by [Nigdzie] – contributions are welcome!
