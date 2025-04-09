@@ -30,24 +30,29 @@ In this example, we flash the **RogueMaster** build `RM0329-1941-0.420.0-d161b19
     - While holding, press **right button once**
     - Release the **left button**
 4. On the Flipper:
+    - Navigate to **Apps**
+    - !(Gfx/GPIO1.jpg)
     - Navigate to **GPIO**
+      !(Gfx/GPIO2.jpg)
     - Select **GPIO with I2C**
+      !(Gfx/GPIO3.jpg)
     - Choose **USB-UART Bridge**
+      !(Gfx/GPIO4.jpg)
 
-5. **Connect the Flipper to your computer via USB.**
+6. **Connect the Flipper to your computer via USB.**
 
-6. **Download the firmware** (example):  
+7. **Download the firmware** (example):  
    [ESP32_Marauder_FEBERIS_v1_4_1.bin](https://github.com/bpmcircuits/ESP32Marauder_FEBERIS/releases)  
    *(or any compatible .bin file)*
 
-7. Open the browser and go to:  
+8. Open the browser and go to:  
    👉 [https://esp.huhn.me](https://esp.huhn.me)
 
-8. Click **Connect** and select your Flipper Zero – it should appear as a serial port (e.g. `FlipperZero (COMx)` or similar).
+9. Click **Connect** and select your Flipper Zero – it should appear as a serial port (e.g. `FlipperZero (COMx)` or similar).
 
-9. In the interface, under the **0x10000** field, select the `ESP32_Marauder_FEBERIS_v1_4_1.bin` file.
+10. In the interface, under the **0x10000** field, select the `ESP32_Marauder_FEBERIS_v1_4_1.bin` file.
 
-10. Click **Flash** to begin the update.
+11. Click **Flash** to begin the update.
 
 ---
 
@@ -55,7 +60,7 @@ In this example, we flash the **RogueMaster** build `RM0329-1941-0.420.0-d161b19
 
 Below is an example of the web flasher setup screen:
 
-![Web Flasher Screenshot](gfx/WebSetup.jpg)
+![Web Flasher Screenshot](Gfx/WEB1.jpg)
 
 ---
 
@@ -70,8 +75,8 @@ Below is an example of the web flasher setup screen:
 
 ### Feberis
 
-- Communication: USB  
-- Firmware format: `.bin` / `.uf2`  
+- Communication: UART / USB-C    
+- Firmware format: `.bin`
 - Power: 3.3V / 5V  
 - [ESP32Marauder_FEBERIS repo](https://github.com/bpmcircuits/ESP32Marauder_FEBERIS)
 
